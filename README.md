@@ -1,6 +1,7 @@
 🍷 Wine Quality Analysis using Machine Learning
 
 📌 Project Overview
+
 This project focuses on analyzing the Wine Quality Dataset to understand how various physicochemical properties influence wine quality. Statistical analysis and machine learning models are used to extract insights and predict wine quality. The project was completed as part of FINLATICS – Enabling Insights and includes exploratory data analysis, correlation studies, and predictive modeling.
 
 🎯 Objectives
@@ -16,6 +17,7 @@ Compare residual sugar levels for the best and worst quality wines
 Build and compare Decision Tree and Random Forest models for wine quality prediction
 
 📊 Dataset
+
 Dataset: Wine Quality Dataset
 Target Variable: quality
 Features Include:
@@ -71,6 +73,7 @@ Still struggles with underrepresented quality labels
 Accuracy: 67.5%
 
 📌 Conclusion:
+
 Random Forest outperforms the Decision Tree model in predicting wine quality.
 
 📈 Model Comparison
