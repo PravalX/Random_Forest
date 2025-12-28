@@ -36,11 +36,13 @@ Alcohol
 🔍 Key Findings
 
 1️⃣ Wine Quality Distribution
+
 Most frequent wine quality: 5
 Highest quality value: 8
 Lowest quality value: 3
 
 2️⃣ Correlation Analysis
+
 Feature	Correlation with Quality	Interpretation
 Fixed Acidity	+0.12	Weak positive correlation
 Alcohol	+0.47	Moderate positive correlation
@@ -53,6 +55,7 @@ Higher alcohol content generally corresponds to better wine quality
 Increased volatile acidity tends to reduce wine quality
 
 3️⃣ Residual Sugar Analysis
+
 Lowest quality wine (Quality = 3): ~2.63
 Highest quality wine (Quality = 8): ~2.58
 Residual sugar does not show a strong impact on quality.
@@ -60,12 +63,14 @@ Residual sugar does not show a strong impact on quality.
 🤖 Machine Learning Models
 
 🌳 Decision Tree Classifier
+
 Performs well for Quality 5 and 6
 Poor classification for minority classes (3, 4, 8)
 
 Accuracy: 60.5%
 
 🌲 Random Forest Classifier
+
 Better generalization than Decision Tree
 Improved performance for dominant classes
 Still struggles with underrepresented quality labels
@@ -79,6 +84,7 @@ Random Forest outperforms the Decision Tree model in predicting wine quality.
 📈 Model Comparison
 
 Model	Accuracy
+
 Decision Tree	60.5%
 Random Forest	67.5%
 
